@@ -10,7 +10,7 @@ const Future = () => {
 
           <div className={s.cards2}>
             <div className={s.card2}>
-              <img src="/Photo.png" alt="The Dandy chair" className={s.img} />
+              <img src="https://img01.flagma.uz/photo/prodaem-stul-eames-kupite-ego-u-proizvoditelya-1872277_big.jpg" alt="The Dandy chair" className={s.img} />
               <p className={s.text}>The Dandy chair</p>
               <p className={s.price}>£250</p>
             </div>
@@ -22,13 +22,13 @@ const Future = () => {
             </div>
 
             <div className={s.card2}>
-              <img src="/Vase.png" alt="The Silky Vase" className={s.img} />
+              <img src="https://stupino.mybloom.ru/upload/iblock/07b/07b8e3b4abddea12622552570b1a92de.jpg" alt="The Silky Vase" className={s.img} />
               <p className={s.text}>The Silky Vase</p>
               <p className={s.price}>£125</p>
             </div>
 
             <div className={s.card2}>
-              <img src="/lampa.png" alt="The Lucy Lamp" className={s.img} />
+              <img src="https://www.fedomo.ru/images/vybiraem-nastolnuyu-lampu-dlya-rabochego-stola-1.jpg" alt="The Lucy Lamp" className={s.img} />
               <p className={s.text}>The Lucy Lamp</p>
               <p className={s.price}>£399</p>
             </div>
