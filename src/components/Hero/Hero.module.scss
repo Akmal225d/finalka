@@ -12,6 +12,11 @@
       width: 100%;
       align-items: center;
       justify-content: space-between;
+
+      @media (max-width: 1070px) {
+        flex-direction: column;
+      
+          }
     }
   
     .textBox {
@@ -48,6 +53,10 @@
         line-height: 1.6;
         color: #d1cde1;
         margin-top: 10px;
+
+  
+
+
       }
     }
   
@@ -57,6 +66,8 @@
       display: flex;
       align-items: center;
       justify-content: center;
+
+  
   
       .image {
         max-width: 100%;

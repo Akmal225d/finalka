@@ -32,19 +32,19 @@ const Menu = () => {
             <div className={s.card}>
               <b>Join our mailing list</b>
 
-              <form action="">
-                <input type="your@email.com" />
+              <form action="" className={s.form}>
+              <input type="text" value="your@email.com" />
+
+
                 <button>Sign up</button>
                 
               </form>
             </div>
           </div>
+         
 
           <div className={s.wrap}>
             <b>Copyright 2022 Avion LTD</b>
-            <img src="/facebook.png" alt="" />
-            <img src="/instagram.png" alt="" />
-            <img src="/twitter.png" alt="" />
           </div>
         </div>
       </section>

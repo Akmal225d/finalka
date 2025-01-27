@@ -3,11 +3,35 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
 padding-bottom: 20px;
 margin-bottom: 20px;
+
 }
 
 .menu {
   background-color: #2A254B;
   padding: 20px;
+
   
+}
+
+
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.form {
+
+  input{
+    padding: 12px;
+
+  }
+
+  button {
+    padding: 12px;
+
+  }
 }
 

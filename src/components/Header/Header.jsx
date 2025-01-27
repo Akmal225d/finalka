@@ -25,13 +25,12 @@ const Header = () => {
   </div>
 
   <div className={s.menu}>
-<Link>Plant pots</Link>
-<Link>Ceramics</Link>
-<Link>Tables</Link>
-<Link>Chairs</Link>
-<Link>Crockery</Link>
-<Link>Tableware</Link>
-<Link>Cutlery</Link>
+    
+<Link to={'/Ceramics1'}>Ceramics</Link>
+<Link to={'/Tables1'}>Tables</Link>
+<Link to={'/Chairs1'}>Chairs</Link>
+<Link to={'/Tableware1'}>Tableware</Link>
+<Link to={'/Cutlery1'}>Cutlery</Link>
 
 </div>
 

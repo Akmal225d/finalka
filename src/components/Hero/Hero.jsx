@@ -8,7 +8,7 @@ const Hero = () => {
       <div className={s.container}>
         <div className={s.textBox}>
           <h1 className={s.title}>
-            The furniture brand for <br /> the  future, with timeless designs
+            The furniture brand <br /> for  the  future, with timeless designs
           </h1>
           <button className={s.button}>View collection</button>
           <p className={s.description}>
@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
         </div>
         <div className={s.imageBox}>
-          <img src="/Table.png" alt="Modern chair design" className={s.image} />
+          <img src="https://kengmakon.uz/_next/image?url=https%3A%2F%2Fcdn.kengmakon.uz%2Fuploads%2F2024%2F10%2F23%2F16%2F15%2F1729689337463-449523338.webp&w=3840&q=75" alt="Modern chair design" className={s.image} />
         </div>
       </div>
     </section>
