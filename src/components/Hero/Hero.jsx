@@ -8,7 +8,7 @@ const Hero = () => {
       <div className={s.container}>
         <div className={s.textBox}>
           <h1 className={s.title}>
-            The furniture brand <br /> for  the  future, with timeless designs
+            The furniture brand <br /> for  the  future with timeless designs
           </h1>
           <button className={s.button}>View collection</button>
           <p className={s.description}>
