@@ -1,11 +1,14 @@
 import React from 'react'
-import Header from '../components/Header/Header'
+
+import Ceramics1 from '../components/Ceramics/Ceramics1'
+
 
 const About = () => {
   return (
   <>
-  
-  <Header/>
+ 
+<Ceramics1/>
+
   
   </>
   )

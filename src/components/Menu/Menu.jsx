@@ -33,7 +33,7 @@ const Menu = () => {
               <b>Join our mailing list</b>
 
               <form action="" className={s.form}>
-              <input type="text" value="your@email.com" />
+              <input type="text" value="your@email.com"  />
 
 
                 <button>Sign up</button>

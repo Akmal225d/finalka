@@ -8,6 +8,7 @@ import Hero from './components/Hero/Hero'
 import Future from './components/Future/Future'
 import London from './components/London/London'
 import Menu from './components/Menu/Menu'
+import Ceramics1 from './components/Ceramics/Ceramics1'
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
   <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/about' element={<About/>}/>
+    <Route path='/ceramics' element={<Ceramics1/>}/>
   </Routes>
   
   </>
