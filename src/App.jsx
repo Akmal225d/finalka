@@ -9,16 +9,20 @@ import Future from './components/Future/Future'
 import London from './components/London/London'
 import Menu from './components/Menu/Menu'
 import Ceramics1 from './components/Ceramics/Ceramics1'
+import BurgerMenu from './components/BurgerMenu/BurgerMenu'
 
 
 const App = () => {
   return (
   <>
+ 
   <Header/>
+  <BurgerMenu/> 
 <Hero/>
 <Future/>
 <London/>
 <Menu/>
+<BurgerMenu/>
   
   <Routes>
     <Route path='/' element={<Home/>}/>
