@@ -2,35 +2,31 @@ import React from 'react'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
-import Header from './components/Header/Header'
+
 import About from './pages/About'
-import Hero from './components/Hero/Hero'
-import Future from './components/Future/Future'
-import London from './components/London/London'
-import Menu from './components/Menu/Menu'
+
 import Ceramics1 from './components/Ceramics/Ceramics1'
-import BurgerMenu from './components/BurgerMenu/BurgerMenu'
+import Chairs1 from './components/Chairs1/Chairs1'
+import Tableware1 from './components/Tableware1/Tableware1'
+import Cutlery1 from './components/Cutlery1/Cutlery1'
+import Tables1 from './components/Tables1/Tables1'
+
 
 
 const App = () => {
   return (
-  <>
- 
-  <Header/>
-  <BurgerMenu/> 
-<Hero/>
-<Future/>
-<London/>
-<Menu/>
-<BurgerMenu/>
-  
-  <Routes>
-    <Route path='/' element={<Home/>}/>
-    <Route path='/about' element={<About/>}/>
-    <Route path='/ceramics' element={<Ceramics1/>}/>
-  </Routes>
-  
-  </>
+    <>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/ceramics' element={<Ceramics1 />} />
+        <Route path='/tables' element={<Tables1/>}/>
+        <Route path='/chairs' element={<Chairs1/>} />
+        <Route path='/tableware' element={<Tableware1/>} />
+        <Route path='/cutlery' element={<Cutlery1/>} />
+      </Routes>
+
+    </>
   )
 }
 
