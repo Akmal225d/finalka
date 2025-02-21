@@ -257,3 +257,130 @@ flex-wrap: wrap;
       }
     }
   }
+
+  .club {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #fff;
+  
+    .container {
+      display: flex;
+      align-items: flex-start; // Выравниваем верхний край
+      justify-content: space-between;
+      max-width: 1200px;
+      width: 100%;
+      gap: 40px;
+    }
+  
+    .img1 {
+      max-width: 50%;
+      height: auto;
+      object-fit: cover;
+    }
+  
+    .textContainer {
+      max-width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; // Размещает текст вверху, а форму внизу
+      height: 100%;
+    }
+  
+    .text {
+      text-align: left; // Выравнивание текста слева
+      padding: 100px;
+    }
+  
+    .form {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: auto; // Прижимаем форму к низу блока
+    }
+  
+    .input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      flex: 1;
+    }
+  
+    .button {
+      background-color: #1d1b46;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+  
+      .img1, .textContainer {
+        max-width: 100%;
+      }
+  
+      .text {
+        text-align: center;
+      }
+  
+      .form {
+        flex-direction: column;
+        width: 100%;
+      }
+  
+      .input {
+        width: 100%;
+      }
+    }
+  }
+  
+
+  .wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  
+    @media (max-width:700px) {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    @media (max-width:500px) {
+      grid-template-columns:1fr 1fr;
+    }
+    @media (max-width:400px) {
+      grid-template-columns: 1fr;
+    }
+    
+    
+  }
+  
+  .menu {
+    background-color: #4f458b;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+  
+  .form {
+    input {
+      padding: 12px;
+  
+    }
+  
+    button {
+      padding: 12px;
+    }
+  }
+  

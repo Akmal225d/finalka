@@ -101,25 +101,83 @@ const Tables1 = () => {
         </div>
       </section>
 
-    
+    <section className={styles.club}>
+      <div className={styles.container}>
+     
+        <img src="./flower.png" alt="Flower" className={styles.img1} />
 
-      <section className={styles.club}>
-      <div className="container">
-<img src="./flower.png" alt="" className={styles.img1} />
-<div className={styles.text}>
-  <h1>Join the club and get the benefits</h1>
-  <p>Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop up stores and more</p>
-</div>
+        <div className={styles.textContainer}>
+          <div className={styles.text}>
+            <h1>Join the club and get the benefits</h1>
+            <p>
+              Sign up for our newsletter and receive exclusive offers on new ranges,
+              sales, pop-up stores, and more.
+            </p>
+          </div>
 
-
+          <form className={styles.form}>
+            <input type="email" placeholder="your@email.com" className={styles.input} />
+            <button className={styles.button}>Sign up</button>
+          </form>
+        </div>
       </div>
+    </section>
 
-
-      </section>
-
+         <section className={styles.menu}>
+            <div className="container">
+              <div className={styles.wrap}>
+                <div className={styles.card}>
+                  <b>Menu</b>
+                  <b>New arrivals</b>
+                  <b>Best sellers</b>
+                  <b>Popular this week</b>
+                  <b>All products</b>
+                </div>
+                <div className={styles.card}>
+                  <b>Categories</b>
+                  <b>Furniture</b>
+                  <b>Plant pots</b>
+                  <b>Chairs</b>
+                  <b>Crockery</b>
+                </div>
+    
+                <div className={styles.card}>
+                  <b>Our company</b>
+                  <b>About us</b>
+                  <b>Contact us</b>
+                  <b>Privacy</b>
+                  <b>Returns policy</b>
+                </div>
+    
+                <div className={styles.card}>
+                  <b>Join our mailing list</b>
+    
+                  <form action="" className={styles.form}>
+                  <input type="text" value="your@email.com"  />
+    
+    
+                    <button>Sign up</button>
+                    
+                  </form>
+                </div>
+              </div>
+             
+    
+              <div className={styles.wrap}>
+                <b>Copyright 2022 Avion LTD</b>
+              </div>
+            </div>
+          </section>
 
     </>
   );
 };
+
+
+
+
+
+
+
 
 export default Tables1;
