@@ -56,7 +56,7 @@ const Ceramics1 = () => {
       </div>
     </section>
 
-         <section className={s.menu}>
+         <section className={s.menu1}>
             <div className="container">
               <div className={s.wrap}>
                 <div className={s.card}>

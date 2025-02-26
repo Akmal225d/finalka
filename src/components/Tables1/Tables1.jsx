@@ -38,7 +38,7 @@ const Tables1 = () => {
     </header>
       <div className={styles.productSection}>
         <div className={styles.productImage}>
-<img src="./Image.svg" alt="" />
+<img src="https://www.ikea.com/global/assets/range-categorisation/images/coffee-tables-10716.jpeg" alt="" />
         </div>
 
         <div className={styles.productInfo}>
@@ -123,7 +123,7 @@ const Tables1 = () => {
       </div>
     </section>
 
-         <section className={styles.menu}>
+         <section className={styles.menu1}>
             <div className="container">
               <div className={styles.wrap}>
                 <div className={styles.card}>

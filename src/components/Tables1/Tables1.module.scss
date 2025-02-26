@@ -6,17 +6,24 @@
 flex-wrap: wrap;
     padding: 20px 0 30px;
 }
-
 .menu {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
 
-
-    a {
-       color: black;
-       text-decoration: none;
+  a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  
+    &:hover {
+      color: #007bff;
     }
-}
+  }
+  }
 .logo {
     text-decoration: none;
     color: black;
@@ -286,6 +293,7 @@ flex-wrap: wrap;
       flex-direction: column;
       justify-content: space-between; // Размещает текст вверху, а форму внизу
       height: 100%;
+      font-size: 17px;
     }
   
     .text {
@@ -361,8 +369,8 @@ flex-wrap: wrap;
     
   }
   
-  .menu {
-    background-color: #4f458b;
+  .menu1 {
+    background-color: #2a254b;
     color: #fff;
     padding: 20px;
   }
