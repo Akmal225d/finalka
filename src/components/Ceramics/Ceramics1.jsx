@@ -23,11 +23,13 @@ const Ceramics1 = () => {
         </div>
 
         <div className={s.menu}>
+          <Link to={'/Header'}>Home</Link> 
           <Link to={"/Ceramics1"}>Ceramics</Link>
           <Link to={"/Tables1"}>Tables</Link>
           <Link to={"/Chairs1"}>Chairs</Link>
           <Link to={"/Tableware1"}>Tableware</Link>
-          <Link to={"/Cutlery1"}>Cutlery</Link>
+
+
         </div>
       </header>
 

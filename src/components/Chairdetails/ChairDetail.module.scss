@@ -1,0 +1,124 @@
+.detailContainer {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+}
+
+.imageSection {
+  flex: 1;
+}
+
+.chairImg {
+  width: 100%;
+
+}
+
+.infoSection {
+  flex: 1;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+
+.quantityControl {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  
+  button {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  span {
+    margin: 0 10px;
+    font-size: 18px;
+  }
+}
+
+.buyButton {
+  background: #FF6600;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.stockInfo {
+  font-size: 14px;
+}
+
+.stock {
+  color: green;
+}
+
+.colorOptions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.colorCircle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+
+  @media (max-width:700px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @media (max-width:500px) {
+    grid-template-columns:1fr 1fr;
+  }
+  @media (max-width:400px) {
+    grid-template-columns: 1fr;
+  }
+  
+  
+}
+
+.menu {
+  background-color: #2a254b;
+  color: #fff;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.form {
+  input {
+    padding: 12px;
+
+  }
+
+  button {
+    padding: 12px;
+  }
+}
