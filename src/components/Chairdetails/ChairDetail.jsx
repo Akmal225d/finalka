@@ -25,12 +25,57 @@ const chairs = [
   }
 ];
 
+<header className={s.header}>
+  <div className="container">
+    <nav className={s.nav}>
+<img src="/Search.png" alt="" className={s.img} />
+
+
+<div className={s.menu}>
+<h1>Avion</h1>
+</div>
+
+
+<div className={s.box}>
+<img src="/Avatar.png" alt="" />
+<img src="/Teleshka.png" alt="" />
+</div>
+
+    </nav>
+  </div>
+
+  <div className={s.menu}>
+
+<Link to={'/Ceramics1'}>Ceramics</Link>
+<Link to={'/Tables1'}>Tables</Link>
+<Link to={'/Chairs1'}>Chairs</Link>
+<Link to={'/Tableware1'}>Tableware</Link>
+
+
+</div>
+
+ </header>
+
 const ChairDetail = () => {
   const { id } = useParams();
   const chair = chairs.find((c) => c.id === Number(id));
   const [quantity, setQuantity] = useState(1);
+  const [cart, setCart] = useState([]); // Добавили корзину
 
   if (!chair) return <h2>Стул не найден</h2>;
+
+  const addToCart = () => {
+    const item = {
+      id: chair.id,
+      name: chair.name,
+      price: chair.price,
+      img: chair.img,
+      quantity: quantity,
+    };
+
+    setCart((prevCart) => [...prevCart, item]); // Добавляем товар в корзину
+    console.log("Товар добавлен в корзину:", item);
+  };
 
   return (
     <div className="main-content">
@@ -46,7 +91,7 @@ const ChairDetail = () => {
             <span>{quantity}</span>
             <button onClick={() => setQuantity(q => q + 1)}>+</button>
           </div>
-          <button className={s.buyButton}>В корзину</button>
+          <button className={s.buyButton} onClick={addToCart}>В корзину</button>
           <p className={s.stockInfo}>На складе: <span className={s.stock}>{chair.stock}</span></p>
           <p className={s.deliveryInfo}>Доставка: {chair.delivery}</p>
           <div className={s.colorOptions}>
