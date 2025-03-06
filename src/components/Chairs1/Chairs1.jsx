@@ -28,7 +28,7 @@ const Chairs1 = () => {
           <Link to={'/Header'}>Home</Link> 
           <Link to="/Ceramics1">Ceramics</Link>
           <Link to="/Tables1">Tables</Link>
-          <Link to="/Chairs1">Chairs</Link>
+         
           <Link to="/Tableware1">Tableware</Link>
         </div>
       </header>
